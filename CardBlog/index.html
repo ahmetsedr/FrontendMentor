@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center h-screen bg-yellow-200">
+  <main class="relative bg-gray container flex justify-center items-center ">
+    <!-- Overlay div -->
+    <div class="absolute inset-0 border-gray-900 opacity-50"></div>
+    <div class="z-10 relative max-w-sm rounded-xl overflow-hidden shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] p-6 bg-white border-2 border-gray-900" style="box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);">
+      <img class="w-full rounded-xl" src="assets\images\illustration-article.svg" alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <p class="bg-yellow-300 px-4 py-2 my-2 w-24 font-semibold rounded-lg">Learning</p>
+        <p>Published 21 Dec 2023</p>
+        <div class="font-bold text-xl mb-2 pt-2">HTML & CSS foundations</div>
+        <p class="text-gray-700 text-base">
+          These languages are the backbone of every
+          website, defining structure, content, and
+          presentation.
+        </p>
+        <div class="flex items-center pt-6">
+          <img class="w-10 h-10 rounded-full mr-4" src="assets\images\image-avatar.webp" alt="Avatar of Jonathan Reinink">
+          <div>
+            <p class="text-gray-900 leading-none font-semibold">Greg Hooper</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

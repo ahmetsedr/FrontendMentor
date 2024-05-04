@@ -3,6 +3,8 @@
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+https://card-blog-live.vercel.app/
+[LIVE](https://card-blog-live.vercel.app/)
 
 Thanks for checking out this front-end coding challenge.
 
